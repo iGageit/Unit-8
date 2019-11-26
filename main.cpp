@@ -2,7 +2,8 @@
 // Dr. T Class Unit 8 
 // 2019-11-23 - 
 // C++ recursive function to  
-// solve tower of hanoi puzzle  
+// solve tower of hanoi puzzle & Recursive Factorial 
+// 
 #include <bits/stdc++.h> 
 #include<vector>
 #include<iostream> 
@@ -35,8 +36,15 @@ unsigned int factorial(unsigned int n)
 // Driver code 
 int main()  
 {  
-    int n = 5; // Number of disks  
-    towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods  
+   int n = 5; // Number of disks  
+   cout << "How many do you want for the Towers of Hanoi? " << endl; 
+  cin >> n; 
+    towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods     
+
+
+  
+  
+   
 
 // Make a new line for the recursive function 
     cout << "\n\n" << endl; 
