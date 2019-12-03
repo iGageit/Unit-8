@@ -1,6 +1,6 @@
 // Richardson Gage Milton
 // Dr. T Class Unit 8 
-// 2019-11-23 - 
+// 2019-12-02 
 // C++ recursive function to  
 // solve tower of hanoi puzzle & Recursive Factorial 
 // 
@@ -33,7 +33,7 @@ unsigned int factorial(unsigned int n)
 	return 1; 
 	return n * factorial(n - 1); 
 }
-// Driver code 
+// main code 
 int main()  
 {  
    int n = 5; // Number of disks  
@@ -52,7 +52,7 @@ int main()
 /*Write a recursive function factorialR that will generate factorials based upon the user starting point (validated) input from the keyboard. i.e. When the user enters, 4, the function should multiply 4 x 3 x 2 x 1, and output the result of 24. */
 
     	int num = 4; 
-      cout << "Enter a Number" << endl; 
+      cout << "Enter a Number for Factorial Recursion: " << endl; 
       cin >> num; 
 
     
@@ -61,9 +61,9 @@ int main()
     return 0;  
 }  
   
-// Some of this is code is contributed by rathbhupendra and Shivi_Aggarwal 
+ 
 
-// C++ program to find factorial of given number 
+ 
 
 
 
